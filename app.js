@@ -1,6 +1,5 @@
 $(function(){
-  $('.box1').css({
-    'background-color': '#F8D2DC',
-    'height': '200px'
-  });
+  $('.box1').slideDown();
 });
+
+//.slideDown()は、「指定した隠れている要素(box1)を縦方向に表示する」
