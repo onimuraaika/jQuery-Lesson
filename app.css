@@ -1,5 +1,4 @@
 .box1 {
-  display: none; /*見えない状態から始まる*/
   background-color: rgb(255, 220, 226);
   height: 500px;
   width: 500px;
