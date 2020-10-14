@@ -1,9 +1,22 @@
 .box1 {
-  background-color: rgb(255, 220, 226);
-  height: 500px;
-  width: 500px;
+  background-color: #fff;
+  height: 300px;
+  width: 300px;
+  float: left;
 }
 
-.box1-ext {
-  background-color: lightgrey;
+.bg1 {
+  background-color: #ffaaaa;
+}
+
+.bg2 {
+  background-color: #ffbbbb;
+}
+
+.bg3 {
+  background-color: #ffcccc;
+}
+
+.bg4 {
+  background-color: #ffdddd;
 }
