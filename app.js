@@ -1,5 +1,8 @@
 $(function(){
-  $('.box1').hide();
+  $('.box1').mouseover(function(){
+    $('.box1').css({'background-color': '#99CCFF'});
+  });
 });
 
-//.slideDown()は、「指定した隠れている要素(box1)を縦方向に表示する」
+//イベントの書き方$('セレクタ名').イベント名(function)(){イベント発生時に処理}
+//「イベント発生時の処理」にcssメソッドの書き方が入っている
