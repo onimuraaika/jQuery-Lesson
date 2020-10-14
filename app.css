@@ -3,3 +3,7 @@
   height: 500px;
   width: 500px;
 }
+
+.box1-ext {
+  border: 50px solid lightgray;
+}

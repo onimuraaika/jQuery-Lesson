@@ -1,8 +1,8 @@
 $(function(){
   $('.box1').mouseover(function(){
-    $('.box1').css({'background-color': '#99CCFF'});
+    $('.box1').addClass('box1-ext');
   });
   $('.box1').mouseout(function(){
-    $('.box1').css({'background-color': 'rgb(255, 220, 226)'});
+    $('.box1').removeClass('box1-ext');
   });
 });
